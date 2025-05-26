@@ -84,11 +84,9 @@ $ mv table.csv ./very-important-files
 
 ## Настройка Git
 
-```$ git config --global user.name "User Namovich" 
-имя или ник нужно написать латиницей и в кавычках```
+```$ git config --global user.name "User Namovich" имя или ник нужно написать латиницей и в кавычках```
 
-```git config --global user.email username@yandex.ru
-здесь нужно указать свой настоящий email```
+```git config --global user.email username@yandex.ru здесь нужно указать свой настоящий email```
 
 Другой способ проверки — вывести содержимое файла конфигурации Git той же командой git config с флагом --list (англ. «список»).
 
