@@ -60,9 +60,7 @@ $ mv table.csv ./very-important-files
 
 ```cat``` - команда для чтения файлов
 
-```$ cat myfile.txt # распечатали содержимое файла myfile.txt
-file-content-1
-file-content-2 ```
+```$ cat myfile.txt # распечатали содержимое файла myfile.txt ```
 
 ### Удаление файлов и папок — rm, rmdir, rm -r
 
@@ -87,9 +85,9 @@ file-content-2 ```
 ## Настройка Git
 
 ```$ git config --global user.name "User Namovich" 
-мя или ник нужно написать латиницей и в кавычках
+имя или ник нужно написать латиницей и в кавычках```
 
-git config --global user.email username@yandex.ru
+```git config --global user.email username@yandex.ru
 здесь нужно указать свой настоящий email```
 
 Другой способ проверки — вывести содержимое файла конфигурации Git той же командой git config с флагом --list (англ. «список»).
@@ -155,10 +153,10 @@ GitHub:
 
 ### Связываем SSH-ключи с GitHub аккаунтом
 
-  ```# скопировать содержимое ключа в буфер обмена:
- $ pbcopy < ~/.ssh/id_rsa.pub
- # для ed25519:
- $ pbcopy < ~/.ssh/id_ed25519.pub ```
+  ```# скопировать содержимое ключа в буфер обмена:```
+ ```$ pbcopy < ~/.ssh/id_rsa.pub```
+ ```# для ed25519:```
+ ```$ pbcopy < ~/.ssh/id_ed25519.pub ```
 
 Перейдите на GitHub и выберите пункт Settings (англ. «настройки») в меню аккаунта.
 
